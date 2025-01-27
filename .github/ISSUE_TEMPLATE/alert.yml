@@ -1,0 +1,10 @@
+name: ⚠️ Alert
+description: Test of an alert issue template
+labels: ["⚠️ Alert"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        :::warning
+        Please make sure to fill out this template when filing a bug report.
+        :::
