@@ -5,9 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        :::warning
-        Please make sure to fill out this template when filing a bug report.
-        :::
+        > [!WARNING]  
+        > If you want to report a bug for 1.0, please open it on the new repository.
   - type: input
     id: non-markdown-input
     attributes:
