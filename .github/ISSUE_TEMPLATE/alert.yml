@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         > [!WARNING]  
-        > If you want to report a bug for 1.0, please open it on the new repository.
+        > If you want to report a bug for 1.0, please open it on the new [repository](https://github.com/homarr-labs/homarr/issues/new/choose).
   - type: input
     id: non-markdown-input
     attributes:
