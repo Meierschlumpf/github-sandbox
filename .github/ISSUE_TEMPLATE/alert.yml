@@ -8,3 +8,7 @@ body:
         :::warning
         Please make sure to fill out this template when filing a bug report.
         :::
+  - type: input
+    id: non-markdown-input
+    attributes:
+      label: Non-Markdown Input
