@@ -1,9 +1,10 @@
 on:
   release:
-    types: released
+    types: edited
 
 jobs:
   hello:
+    if: github.event.release.draft == false
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Hello world'
+      - run: echo '${{ github.event }}'
